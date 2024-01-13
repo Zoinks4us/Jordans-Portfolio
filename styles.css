@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  
+}
+body{
+  background-color: rgb(25, 25, 68);
+  color: aliceblue;
+}
+
+ul{
+  display: flex;
+  gap: 10px;
+  color: coral;
+  margin-left: 650px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+h2{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+#about-text {
+  max-width: 500px;
+  display: inline;
+}
+.work{
+ width: 80%;
+}
+#work-imgs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+#work-imgs a{
+  width: 71%;
+}
+#project{
+  width: 71%;
+}
+#blank{
+  width: 30%;
+}
