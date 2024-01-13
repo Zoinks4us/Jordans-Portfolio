@@ -20,7 +20,7 @@ ul{
   margin-bottom: 8px;
 }
 
-h2{
+h2, h3{
   margin-top: 15px;
   margin-bottom: 10px;
 }
@@ -41,8 +41,28 @@ h2{
   width: 71%;
 }
 #project{
-  width: 71%;
+  width: 100%;
 }
 #blank{
   width: 30%;
+}
+
+fieldset a{
+  max-width: 100%;
+}
+
+img{
+  border: 2px solid coral;
+  gap: 2px;
+}
+img:hover{
+ opacity: 50%;
+ cursor: pointer;
+}
+footer{
+  display: inline;
+}
+footer p{
+  display: inline;
+  margin: 0 15px;
 }
